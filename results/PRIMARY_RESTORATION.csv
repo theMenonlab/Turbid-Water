@@ -1,0 +1,11 @@
+model_id,input,ssim,psnr_db,mae
+edvr_RGB_burst_mixed_seed1337,burst,0.6427,18.884,0.0876
+edvr_RGB_mean_mixed_seed1337,mean,0.6527,19.496,0.0834
+edvr_RGB_single_mixed_seed1337,single,0.6257,18.964,0.0889
+nafnet_RGB_single_mixed_seed1337,single,0.6284,19.624,0.0807
+nafnet_RGB_mean_mixed_seed1337,mean,0.6550,19.709,0.0831
+nafnet_RGB_burst_mixed_seed1337,burst,0.6562,19.712,0.0818
+restormer_RGB_burst_measured_seed1337,burst,0.6759,20.888,0.0685
+restormer_RGB_burst_mixed_seed1337,burst,0.6753,20.499,0.0722
+restormer_RGB_mean_mixed_seed1337,mean,0.6756,20.569,0.0719
+restormer_RGB_single_mixed_seed1337,single,0.6434,19.932,0.0798

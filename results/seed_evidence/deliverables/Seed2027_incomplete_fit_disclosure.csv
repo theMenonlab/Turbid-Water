@@ -1,0 +1,3 @@
+seed,arm,job_id,completed_successful_updates,failed_attempt,stage,failure_state,classification,earlier_finite_selected_step
+2027,restormer_RGB_burst_mixed,16306677,15646,15647,"backward gradient assertion, before Adam step",Saved model and Adam state finite; offending gradients were not serialized,Incomplete; not evaluated as a successful replicate,256
+2027,restormer_RGB_burst_measured,16306678,6924,6925,post-Adam finite-state guard,Weights/first moments finite; 26121836 positive Inf elements across494 second-moment states,Incomplete; not evaluated as a successful replicate,256

@@ -1,0 +1,28 @@
+{
+  "UTC": "2026-10-17T21:34:59.356155+00:00",
+  "passed": true,
+  "independent_pandas_identity_aggregation_rows_checked": 16,
+  "two_seed_mean_and_sample_SD_checked": 8,
+  "per_seed_SSIM_rows": 16,
+  "two_seed_SSIM_rows": 8,
+  "PDF_pages_rendered_and_inspected": 2,
+  "fixed_native_gate_examples_inspected": 3,
+  "failed2027_rows_disclosed": 2,
+  "manuscript_edited": false,
+  "new_training": false,
+  "GPU_process_released": true,
+  "deliverable_hashes": {
+    "Per_seed_paired_SSIM.csv": "3307c12fafeb6a4d6ebad35bad97ab9ae7d97afa0a02d16244011cfd041a520f",
+    "Restormer_current_dataset_seed_tables.pdf": "266068823b2c957272ebba04b588d428677a5df41f532eed3eea128ebec52551",
+    "Per_seed_paired_all_metrics.csv": "7046055e2d75a9976dcc785dbe0078aba997d852a1a2452d219b5981cc571bf9",
+    "Two_seed_summary_SSIM.csv": "771de02afbdeff95eb9a0788d0e0e2d8460d322d3456a81e56b4dfe52ff05d5d",
+    "Two_seed_summary_all_metrics.csv": "0e293db99518a10431036e4ed5d5f1c6061111b801a2cca383da3e2d12299264",
+    "Current_dataset_per_record_all4fits.csv": "e5fccc01584c96643b29c57ef5cf4c50cfc1ca3e72152c00f2bf114c6ac00383",
+    "Per_seed_paired_SSIM.tex": "43e9250a73c3c3b415cd924e8e5081d980b2bd6c169bbdb08c6e167ae38d256a",
+    "Paired_identity_SSIM_values.csv": "53ef6a2b58fda593e88f531d37d4abc10bd127772bdd4cb66c06bcf26edb2e04",
+    "Suggested_supplement_text.tex": "73b385986d3bb8be98629c1ea3ead41ddcf3861ec3dae952d7a94798069a77e4",
+    "Provenance_and_editor_handoff.txt": "4cc9271793108823c7d16562b7a44b346e2ba84a208cdbc10731c4dfac6fab80",
+    "Table_caption_and_uncertainty.txt": "8bf6f4dc3a58953012fc49d82544a2aeeb03ec7bc241efb9b510933ba4a02c79",
+    "Seed2027_incomplete_fit_disclosure.csv": "32fe5726dd32f32c24ed802d8e89460301f52e4a0a46da27c3827a99ca2e2dff"
+  }
+}

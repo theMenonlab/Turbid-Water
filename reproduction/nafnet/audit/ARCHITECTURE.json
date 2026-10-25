@@ -1,0 +1,39 @@
+{
+  "UTC": "2026-10-15T23:58:35.567522+00:00",
+  "architecture": {
+    "width": 32,
+    "enc_blk_nums": [
+      1,
+      1,
+      1,
+      28
+    ],
+    "middle_blk_num": 1,
+    "dec_blk_nums": [
+      1,
+      1,
+      1,
+      1
+    ],
+    "img_channel": 3,
+    "input_channels": 24,
+    "output_channels": 3,
+    "DW_Expand": 2,
+    "FFN_Expand": 2,
+    "dropout": 0,
+    "activation_checkpointing": "none",
+    "official_commit": "2b4af71ebe098a92a75910c233a3965a3e93ede4",
+    "official_url": "https://github.com/megvii-research/NAFNet",
+    "local_inference_conversion": false,
+    "burst_adaptation": "Only intro Conv2d changes 3->24 input channels; output stays RGB; forward residual becomes arithmetic mean over eight RGB input slots. Official encoder/decoder/NAFBlocks unchanged. All three controls use identical graph/initial weights; single repeats fifth frame, mean repeats float32 mean.",
+    "parameters": 17117955,
+    "official_unadapted_RGB_parameters": 17111907
+  },
+  "initializer": {
+    "path": "assets/nafnet_initializer.pth",
+    "sha256": "356e7aa8f680041c46dff09603060937c9efa3d930c04b03b0243a31260936ca"
+  },
+  "fresh_seed": 1337,
+  "adapter_official_repeated_input_parity_max_abs": 7.152557373046875e-07,
+  "no_old_checkpoint_used": true
+}

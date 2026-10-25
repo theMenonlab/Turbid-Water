@@ -1,0 +1,61 @@
+{
+  "UTC": "2026-10-15T23:59:41.456503+00:00",
+  "data_root": "/home/al/Documents/ChatGPT/NRL/turbid_water/final_paper_local_backup_20261014",
+  "downloaded_final_release": "/media/al/ingold_20260515/nrl_final_paper_v3_20261014",
+  "manifest_sha256": {
+    "data/RESTORATION_PAIRED_MANIFEST_v1.json": "12cedc7d910c922c642693959dae31e962ce84c4aa0c09dafc97a5f76c36cb05",
+    "data/CLASSIFICATION_MANIFEST_v1.json": "f4c0ca1c1f8414611cd4ff365bf34c20d8b9dcf707fe2db7779b0fde9c4e40b7",
+    "data/NATURAL_IMAGE_ROSTER.json": "e13938eeec85267464c0dfb2db413fff2dbcbb60184a7ed64b114a919db42ed6"
+  },
+  "same_local_and_downloaded_final_manifests": true,
+  "all_3342_paired_input_target_hashes_shapes_dtypes_verified": true,
+  "roles": {
+    "train": {
+      "intervals": 2648,
+      "global_IDs": 580,
+      "category_intervals": {
+        "apparel": 551,
+        "artwork": 603,
+        "cars": 598,
+        "dishes": 492,
+        "furniture": 404
+      }
+    },
+    "tune": {
+      "intervals": 365,
+      "global_IDs": 76,
+      "category_intervals": {
+        "apparel": 78,
+        "artwork": 101,
+        "cars": 63,
+        "dishes": 97,
+        "furniture": 26
+      }
+    },
+    "eval": {
+      "intervals": 329,
+      "global_IDs": 72,
+      "category_intervals": {
+        "apparel": 59,
+        "artwork": 82,
+        "cars": 95,
+        "dishes": 45,
+        "furniture": 48
+      }
+    }
+  },
+  "new_validated_pairs": 260,
+  "classification_only_133_excluded": true,
+  "frozen_global_roles_reservations_preserved": true,
+  "natural_train_crops": 96,
+  "draws_sha256": "b8cb484171b4330bde8b0b07424e14eee79a8de353f3701ab15466d240ef3e3f",
+  "initial_state_sha256_per_mode": {
+    "single": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2",
+    "mean": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2",
+    "burst": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2"
+  },
+  "internal_free_bytes": 31230537728,
+  "external_free_bytes": 977367519232,
+  "elapsed_seconds": 17.596151876001386,
+  "GPU_training_performed": false
+}

@@ -1,0 +1,16 @@
+# Install a compatible PyTorch / Torchvision pair for your CPU or CUDA runtime.
+torch>=2.1
+torchvision>=0.16
+numpy>=1.24
+Pillow>=10
+scikit-image>=0.21
+einops>=0.6
+scipy>=1.10
+opencv-python>=4.8
+PyYAML>=6
+# Frozen BasicSR utilities used by the archived EDVR graph:
+lmdb>=1.4
+requests>=2.31
+tqdm>=4.65
+addict>=2.4
+yapf>=0.40

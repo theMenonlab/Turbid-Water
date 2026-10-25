@@ -1,0 +1,131 @@
+{
+  "restoration_only": [
+    {
+      "run": "edvr_RGB_single_mixed",
+      "base_GPU_hours": 0.9196321973555476,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 1.064338572894954,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "edvr_RGB_mean_mixed",
+      "base_GPU_hours": 0.8821429808488918,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 1.026849356388298,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "edvr_RGB_burst_mixed",
+      "base_GPU_hours": 0.9214354872755616,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 1.066141862814968,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "restormer_RGB_single_mixed",
+      "base_GPU_hours": 4.610019700722219,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 4.754726076261625,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "restormer_RGB_mean_mixed",
+      "base_GPU_hours": 4.4677073066433275,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 4.6124136821827335,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "restormer_RGB_burst_mixed",
+      "base_GPU_hours": 4.4434634703166696,
+      "CPU_renderer_serial_hours": 0.1447063755394063,
+      "allocated_GPU_hours_estimate": 4.588169845856076,
+      "total_updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384
+    },
+    {
+      "run": "restormer_RGB_burst_measured",
+      "base_GPU_hours": 4.4434634703166696,
+      "CPU_renderer_serial_hours": 0,
+      "allocated_GPU_hours_estimate": 4.4434634703166696,
+      "total_updates": 65536,
+      "measured_updates": 65536,
+      "synthetic_updates": 0
+    }
+  ],
+  "restoration_total_allocated_GPU_hours_estimate": 21.556102866715324,
+  "restoration_longest_independent_job": {
+    "run": "restormer_RGB_single_mixed",
+    "base_GPU_hours": 4.610019700722219,
+    "CPU_renderer_serial_hours": 0.1447063755394063,
+    "allocated_GPU_hours_estimate": 4.754726076261625,
+    "total_updates": 65536,
+    "measured_updates": 49152,
+    "synthetic_updates": 16384
+  },
+  "classifier_phase_separate_GPU_hours_estimate": 4.657367173132334,
+  "base_source": {
+    "edvr_RGB_single": {
+      "last16384_including_tuning_and_checkpoint_seconds": 827.6689776199928,
+      "median_optimizer_update_seconds": 0.04062649050320033,
+      "full65536_scaled_base_seconds": 3310.675910479971,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/edvr_RGB_single/completed_32768.json",
+      "receipt_sha256": "1a40332c123844271522c92cca8dfa5cd1a2e06d41f5197adbea84fc1fb96f66"
+    },
+    "edvr_RGB_mean": {
+      "last16384_including_tuning_and_checkpoint_seconds": 793.9286827640026,
+      "median_optimizer_update_seconds": 0.03925856300338637,
+      "full65536_scaled_base_seconds": 3175.7147310560104,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/edvr_RGB_mean/completed_32768.json",
+      "receipt_sha256": "03cbd9f134acf92433113a86ede0d9c3e655ae757f39134cf436f7ef1f393e17"
+    },
+    "edvr_RGB_burst": {
+      "last16384_including_tuning_and_checkpoint_seconds": 829.2919385480054,
+      "median_optimizer_update_seconds": 0.041450832002738025,
+      "full65536_scaled_base_seconds": 3317.1677541920217,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/edvr_RGB_burst/completed_32768.json",
+      "receipt_sha256": "68c9e8a73fe31716552339b25d4e100bcd3427b2176283a35061cbb9eee1c47e"
+    },
+    "restormer_RGB_single": {
+      "last16384_including_tuning_and_checkpoint_seconds": 4149.017730649997,
+      "median_optimizer_update_seconds": 0.21808400099689607,
+      "full65536_scaled_base_seconds": 16596.07092259999,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/restormer_RGB_single/completed_32768.json",
+      "receipt_sha256": "9483fdd1cc3b5fd5178eb0d7dac990c85130e7e59b0f35fa1a8820d433134a59"
+    },
+    "restormer_RGB_mean": {
+      "last16384_including_tuning_and_checkpoint_seconds": 4020.9365759789944,
+      "median_optimizer_update_seconds": 0.21760457449272508,
+      "full65536_scaled_base_seconds": 16083.746303915977,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/restormer_RGB_mean/completed_32768.json",
+      "receipt_sha256": "7118df0e82f9c9b72ef5c3612df7824d07d756842ffb49646a76615e10e2fbb8"
+    },
+    "restormer_RGB_burst": {
+      "last16384_including_tuning_and_checkpoint_seconds": 3999.117123285003,
+      "median_optimizer_update_seconds": 0.217239495497779,
+      "full65536_scaled_base_seconds": 15996.468493140012,
+      "receipt_path": "/home/al/Documents/ChatGPT/NRL/turbid_water/nafnet_convergence_20261008/runs/restormer_RGB_burst/completed_32768.json",
+      "receipt_sha256": "2cd67137825a8965f75bb3e32cd4156506f96d8a3c79e959889b7ab9b2dd65b3"
+    }
+  },
+  "CPU_renderer_measured_bursts": 64,
+  "CPU_renderer_seconds_per_burst_mean": 0.03179583446910783,
+  "restoration_only_conservative_allocation_hours": [
+    26.728069020085048,
+    42.24396748019421
+  ],
+  "restoration_only_parallel_walltime_after_staging_and_allocation": "About4.75h at Legion-like throughput with7GPUs; allow6\u201310h including hardware/I/O variability. Queue, staging and later manual classifier phase additional. No CHPC timing claim.",
+  "storage_reservation_GB": 80,
+  "no_cluster_benchmark_or_submission": true
+}

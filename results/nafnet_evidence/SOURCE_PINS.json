@@ -1,0 +1,18 @@
+{
+  "source_root": "/home/al/Documents/Codex/2026-10-15/task-2",
+  "files": {
+    "RESULTS.txt": "efc76ff5cc5e9622655e466a344840a2e3532b948ec330c9d1ba830ccd2920d7",
+    "README_NAFNET.txt": "6369d2cf9651dee473c7b7ae68e1f69f9818b3e0de83b0034ce013a5c1820bc4",
+    "audit/FINAL_HANDOFF.json": "b18685435d0d4cad9f88f608949e44924a4c4ca1861160690b74328e68f3034e",
+    "audit/ARCHITECTURE.json": "b69efbd85c8f6102baeebd00529808192fd41f8831ac2d24f85443a068a1fafd",
+    "config/CAMPAIGN_v1.json": "70a64870e405c4e37ac8f1c8abff05c57e091394b566265b7fedf458e6fe2985",
+    "audit/SCIENCE_FILE_SHA256.json": "82deb2c0ac68f55f0120b88d80863dc9d3e841093eac30d0d4250d7082cc859d",
+    "results/ALL_THREE_SELECTIONS_FROZEN.json": "e7e76fce5292bbaf51acc97c9ef10d2d0ea35a2fb3a74df6d302e1f17f3671a1",
+    "results/evaluation/PAIRED_SUMMARY.csv": "e394ac4743731e872665d3eb8784e8643082c8849ce0454306a2bdcd8f59a4d8",
+    "results/evaluation/PAIRED_PER_RECORD.csv": "3e1dbeb92d75d1a811177850ff96b2b643166c2cb1cb587b901a1ab2f5f7c82d"
+  },
+  "all_three_best_checkpoint_hashes_fresh_verified": true,
+  "all_three_prediction_array_hashes_fresh_verified": true,
+  "source_handoff": "ALL_THREE_TRAINED_FROZEN_EVALUATED_AND_INDEPENDENTLY_VERIFIED",
+  "editor_training_or_inference": false
+}

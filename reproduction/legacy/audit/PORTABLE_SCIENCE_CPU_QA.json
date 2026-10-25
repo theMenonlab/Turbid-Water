@@ -1,0 +1,95 @@
+{
+  "passed": true,
+  "CPU_only": true,
+  "CUDA_models_created": 0,
+  "cluster_or_submission_actions": 0,
+  "UTC": "2026-10-13T23:46:48.222505+00:00",
+  "checks": {
+    "six_restoration_graphs_forward_backward_and_shared_capacity": true,
+    "single_mode_ignores_other_seven_measured_frames": true,
+    "repeat_controls_numerically_agree": true,
+    "three_classifier_initial_states_exact_prior_ImageNetV1_recipe": true,
+    "BN159_running_buffers_frozen_during_full_stage": true,
+    "training_eval_224_transforms_exact_prior_recipe": true,
+    "AdamW_and_RNG_exact_interrupted_CPU_replay": true,
+    "fixed_budget_mixture_counts_train_only_draws_and_disjoint_roles": true,
+    "64_native_synthetic_bursts_reproducible_TRAIN_only": true,
+    "D5_confirmed_override_and_fifty_eval_IDs_unchanged": true
+  },
+  "restoration_initial_states": {
+    "edvr_single": "e990d08fdfcefca85e982ccf22d8091c961fd8968cfacfc54fed2c6b05b9bebb",
+    "edvr_mean": "e990d08fdfcefca85e982ccf22d8091c961fd8968cfacfc54fed2c6b05b9bebb",
+    "edvr_burst": "e990d08fdfcefca85e982ccf22d8091c961fd8968cfacfc54fed2c6b05b9bebb",
+    "restormer_single": "45495e6c145479e97038ca0c46624925558b11f125a0637e736aaa5647a6df4f",
+    "restormer_mean": "45495e6c145479e97038ca0c46624925558b11f125a0637e736aaa5647a6df4f",
+    "restormer_burst": "45495e6c145479e97038ca0c46624925558b11f125a0637e736aaa5647a6df4f"
+  },
+  "finite_gradient_tensor_counts": {
+    "edvr_single": 146,
+    "edvr_mean": 146,
+    "edvr_burst": 146,
+    "restormer_single": 494,
+    "restormer_mean": 494,
+    "restormer_burst": 494
+  },
+  "classifier_initial_states": {
+    "1337": "1f876ccc964287bbf71da072337c44c0f6b80d9d3d1d10eb0146b0eb4725c1f4",
+    "2027": "082d62b44493fb4ebfc001aac0246a1237602d76bca8137875ec289e394a2afd",
+    "4099": "4e6a04564dcedd5520c14af8e2e8a6450df40ddd4c4b05749a8df80c13505590"
+  },
+  "manifest_counts": {
+    "RESTORATION_PAIRED_MANIFEST_v1.json": {
+      "train": {
+        "records": 2648,
+        "identities": 580
+      },
+      "tune": {
+        "records": 365,
+        "identities": 76
+      },
+      "eval": {
+        "records": 329,
+        "identities": 72
+      }
+    },
+    "CLASSIFICATION_MANIFEST_v1.json": {
+      "train": {
+        "records": 2758,
+        "identities": 580
+      },
+      "tune": {
+        "records": 372,
+        "identities": 76
+      },
+      "eval": {
+        "records": 345,
+        "identities": 72
+      }
+    }
+  },
+  "D5_counts": [
+    {
+      "manifest": "RESTORATION_PAIRED_MANIFEST_v1.json",
+      "D5_train": 404,
+      "D5_tune": 51,
+      "D5_eval": 50,
+      "D5_eval_IDs": 50
+    },
+    {
+      "manifest": "CLASSIFICATION_MANIFEST_v1.json",
+      "D5_train": 404,
+      "D5_tune": 51,
+      "D5_eval": 50,
+      "D5_eval_IDs": 50
+    }
+  ],
+  "synthetic_CPU_seconds_per_burst_mean": 0.03179583446910783,
+  "synthetic_CPU_seconds_per_burst_max64": 0.04033316599816317,
+  "synthetic_CPU_seconds_for_16384_estimate": 520.9429519418627,
+  "synthetic_sample_pixel_sha256": "511c849e9f0de8f9ba6d9c4a949f12fb4b80337910becdde85ae119a0bf92a24",
+  "elapsed_seconds": 5.936461269004212,
+  "limits": [
+    "CPU checks do not establish CHPC CUDA/runtime compatibility, VRAM or throughput. No cluster warmup/benchmark/job is added.",
+    "Mass submission still requires parent matrix/compute review."
+  ]
+}

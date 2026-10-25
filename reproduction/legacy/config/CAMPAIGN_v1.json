@@ -1,0 +1,364 @@
+{
+  "schema_version": 1,
+  "campaign_id": "final_paper_20261013",
+  "restoration_manifest": "data/RESTORATION_PAIRED_MANIFEST_v1.json",
+  "classification_manifest": "data/CLASSIFICATION_MANIFEST_v1.json",
+  "natural_manifest": "data/NATURAL_IMAGE_ROSTER.json",
+  "data_admission_sha256": "75d4c8760ba349d42502e83fae73e7ec9b13bf2d011414166c663418e125e783",
+  "assets": {
+    "edvr": {
+      "path": "assets/edvr_initializer.pth",
+      "sha256": "bc2d8e4ff85b422c7eb9583d94aa0350ae9de342857541be1df847fb089931b4"
+    },
+    "restormer": {
+      "path": "assets/restormer_initializer.pth",
+      "sha256": "3b6dcb57a5770b45b8cd6e38574f84b0f72163b55abb2944533fc5ec118fb0a7"
+    },
+    "resnet50": {
+      "path": "assets/resnet50_initializer.pth",
+      "sha256": "0676ba61b6795bbe1773cffd859882e5e297624d384b6993f7c9e683e722fb8a"
+    }
+  },
+  "restoration_runs": [
+    {
+      "run_id": "edvr_RGB_single_mixed",
+      "model": "edvr_RGB_single",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/edvr_RGB_single_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/edvr_RGB_single_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 0.9196321973555476,
+      "proposed_command": "python -u campaign_train.py --run edvr_RGB_single_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_edvr_RGB_single_mixed.sh"
+    },
+    {
+      "run_id": "edvr_RGB_mean_mixed",
+      "model": "edvr_RGB_mean",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/edvr_RGB_mean_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/edvr_RGB_mean_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 0.8821429808488918,
+      "proposed_command": "python -u campaign_train.py --run edvr_RGB_mean_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_edvr_RGB_mean_mixed.sh"
+    },
+    {
+      "run_id": "edvr_RGB_burst_mixed",
+      "model": "edvr_RGB_burst",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/edvr_RGB_burst_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/edvr_RGB_burst_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 0.9214354872755616,
+      "proposed_command": "python -u campaign_train.py --run edvr_RGB_burst_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_edvr_RGB_burst_mixed.sh"
+    },
+    {
+      "run_id": "restormer_RGB_single_mixed",
+      "model": "restormer_RGB_single",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/restormer_RGB_single_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/restormer_RGB_single_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 4.610019700722219,
+      "proposed_command": "python -u campaign_train.py --run restormer_RGB_single_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_restormer_RGB_single_mixed.sh"
+    },
+    {
+      "run_id": "restormer_RGB_mean_mixed",
+      "model": "restormer_RGB_mean",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/restormer_RGB_mean_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/restormer_RGB_mean_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 4.4677073066433275,
+      "proposed_command": "python -u campaign_train.py --run restormer_RGB_mean_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_restormer_RGB_mean_mixed.sh"
+    },
+    {
+      "run_id": "restormer_RGB_burst_mixed",
+      "model": "restormer_RGB_burst",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 49152,
+      "synthetic_updates": 16384,
+      "mix_schedule": "Every fourth update synthetic; all other updates measured",
+      "expected_selected_checkpoint": "results/restoration/restormer_RGB_burst_mixed/best.pth",
+      "expected_selection_receipt": "results/restoration/restormer_RGB_burst_mixed/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 4.4434634703166696,
+      "proposed_command": "python -u campaign_train.py --run restormer_RGB_burst_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_restormer_RGB_burst_mixed.sh"
+    },
+    {
+      "run_id": "restormer_RGB_burst_measured",
+      "model": "restormer_RGB_burst",
+      "seed": 1337,
+      "initialization": "same-family fresh initializer",
+      "updates": 65536,
+      "measured_updates": 65536,
+      "synthetic_updates": 0,
+      "mix_schedule": "Every update measured",
+      "expected_selected_checkpoint": "results/restoration/restormer_RGB_burst_measured/best.pth",
+      "expected_selection_receipt": "results/restoration/restormer_RGB_burst_measured/SELECTION.json",
+      "Legion_scaled_base_GPU_hours": 4.4434634703166696,
+      "proposed_command": "python -u campaign_train.py --run restormer_RGB_burst_measured --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "independent_shell_name": "train_restormer_RGB_burst_measured.sh"
+    }
+  ],
+  "classifier_arms": [
+    {
+      "arm": "raw1",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": null,
+      "independent_shell_name": "classify_raw1.sh",
+      "proposed_command": "python -u campaign_classify.py --arm raw1 --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "rawmean",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": null,
+      "independent_shell_name": "classify_rawmean.sh",
+      "proposed_command": "python -u campaign_classify.py --arm rawmean --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "raw8",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": null,
+      "independent_shell_name": "classify_raw8.sh",
+      "proposed_command": "python -u campaign_classify.py --arm raw8 --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "edvr_RGB_single_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/edvr_RGB_single_mixed/best.pth",
+      "independent_shell_name": "classify_edvr_RGB_single_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm edvr_RGB_single_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "edvr_RGB_mean_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/edvr_RGB_mean_mixed/best.pth",
+      "independent_shell_name": "classify_edvr_RGB_mean_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm edvr_RGB_mean_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "edvr_RGB_burst_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/edvr_RGB_burst_mixed/best.pth",
+      "independent_shell_name": "classify_edvr_RGB_burst_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm edvr_RGB_burst_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "restormer_RGB_single_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/restormer_RGB_single_mixed/best.pth",
+      "independent_shell_name": "classify_restormer_RGB_single_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm restormer_RGB_single_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "restormer_RGB_mean_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/restormer_RGB_mean_mixed/best.pth",
+      "independent_shell_name": "classify_restormer_RGB_mean_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm restormer_RGB_mean_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "restormer_RGB_burst_mixed",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/restormer_RGB_burst_mixed/best.pth",
+      "independent_shell_name": "classify_restormer_RGB_burst_mixed.sh",
+      "proposed_command": "python -u campaign_classify.py --arm restormer_RGB_burst_mixed --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    },
+    {
+      "arm": "restormer_RGB_burst_measured",
+      "seeds": [
+        1337,
+        2027,
+        4099
+      ],
+      "updates_each": 1000,
+      "expected_restoration_checkpoint": "results/restoration/restormer_RGB_burst_measured/best.pth",
+      "independent_shell_name": "classify_restormer_RGB_burst_measured.sh",
+      "proposed_command": "python -u campaign_classify.py --arm restormer_RGB_burst_measured --protocol ../config/CAMPAIGN_v1.json --data-root .. --results-root ../results",
+      "launch": "Al manually submits after all reconstruction selection receipts and outputs are verified. No dependencies or automatic chaining."
+    }
+  ],
+  "categories": [
+    "apparel",
+    "artwork",
+    "cars",
+    "dishes",
+    "furniture"
+  ],
+  "restoration_seed": 1337,
+  "draw_seed": 61013,
+  "classifier_seeds": [
+    1337,
+    2027,
+    4099
+  ],
+  "restoration_tune_steps": [
+    0,
+    256,
+    1024,
+    2048,
+    4096,
+    6144,
+    8192,
+    10240,
+    12288,
+    14336,
+    16384,
+    18432,
+    20480,
+    22528,
+    24576,
+    26624,
+    28672,
+    30720,
+    32768,
+    34816,
+    36864,
+    38912,
+    40960,
+    43008,
+    45056,
+    47104,
+    49152,
+    51200,
+    53248,
+    55296,
+    57344,
+    59392,
+    61440,
+    63488,
+    65536
+  ],
+  "restoration_optimizer": {
+    "lr": 0.0002,
+    "weight_decay": 0.0,
+    "batch_size": 1
+  },
+  "loss": {
+    "pixel_weight": 0.1,
+    "ssim_weight": 1.0,
+    "gradient_weight": 0.05
+  },
+  "mix": {
+    "synthetic_period": 4,
+    "synthetic_count": 16384,
+    "measured_count": 49152
+  },
+  "classifier_budget": {
+    "updates": 1000,
+    "epochs": 25,
+    "updates_per_epoch": 40,
+    "batch": 32,
+    "microbatch": 4
+  },
+  "numeric": {
+    "precision": "FP32",
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false
+  },
+  "source_proposal_sha256": "966b2d90b1058c3126b9ce0f5cd5f2aec39760c5eed3d2e7688d4df777b8fa9a",
+  "mass_submission_reviewed": true,
+  "review_basis": "Parent explicitly approved the seven-arm scope and requested frozen integration/release. Release config records this approval; no cluster submission is performed. Independent integration receipt accompanies this release.",
+  "results": {
+    "restoration": "restoration",
+    "classifier": "classifiers"
+  },
+  "eval_rule": "Classifier fits only initially. Al manually evaluates after all30 classifier checkpoint selections are frozen; no automatic scheduler dependencies.",
+  "manifest_sha256": {
+    "data/RESTORATION_PAIRED_MANIFEST_v1.json": "12cedc7d910c922c642693959dae31e962ce84c4aa0c09dafc97a5f76c36cb05",
+    "data/CLASSIFICATION_MANIFEST_v1.json": "f4c0ca1c1f8414611cd4ff365bf34c20d8b9dcf707fe2db7779b0fde9c4e40b7",
+    "data/NATURAL_IMAGE_ROSTER.json": "e13938eeec85267464c0dfb2db413fff2dbcbb60184a7ed64b114a919db42ed6"
+  },
+  "draws": "config/draws.json",
+  "draws_sha256": "b8cb484171b4330bde8b0b07424e14eee79a8de353f3701ab15466d240ef3e3f",
+  "generator_stats_sha256": "df74105475b99d3d70b21f8f22112676563444185f40bae117a8ad043c9d45e5",
+  "generator_sha256": "ba6de5ae952e380df4a2dafd253b87b61b8f37f335c5be588da55a76f9fcc665",
+  "scientific_adapters_authorized": true,
+  "data_archive_sha256": "4341e83a3f54c4761df5d761d00743d7e6f6d93d82ae31c5444903c8e90c4e35",
+  "reporting_override": "metadata_overrides/D5_CONFIRMED_CONDITION_OVERRIDE_v1_20261013.json",
+  "restoration_activation_checkpointing": "stages",
+  "restoration_keep_step_checkpoints": false,
+  "execution_release": "v3_20261014_checkpoint_stages"
+}

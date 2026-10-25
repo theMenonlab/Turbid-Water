@@ -1,0 +1,23 @@
+{
+  "UTC": "2026-10-17T21:34:59.356155+00:00",
+  "completed": true,
+  "supplement_editor_package": "/home/al/Documents/ChatGPT/NRL/turbid_water/chpc_restoration_seed_replication_20261015/evaluation_20261017/Restormer_current_dataset_seed_supplement_editor_handoff_20261017.zip",
+  "package_sha256": "4e706c3ae8d7b5e6bdec3f815763823fc2a7ab1205986eb0817d57ad3f238ba4",
+  "package_bytes": 178366,
+  "included_files": 21,
+  "new_seed4099_evaluated_models": 2,
+  "reused_seed1337_models": 2,
+  "records_per_fit": 329,
+  "identities": 72,
+  "completed_training_seeds": [
+    1337,
+    4099
+  ],
+  "incomplete_training_seed": [
+    2027
+  ],
+  "outcomes": "Mixed-minus-measured overall SSIM:1337 -0.0006033849818681277;4099 +0.004066927458323469;mean +0.0017317712382276707; across-seed sample SD(n2)0.0033024095967193706; conditional identity95%CI[0.00018825934764800373,0.0032161644711218495].",
+  "manuscript_edited": false,
+  "all_authorized_processing_complete": true,
+  "blockers": []
+}

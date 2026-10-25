@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.venv/
+.DS_Store
+*.bak
+outputs/
+*.pth
+*.npy
+*.zip
+*.tar
+*.tar.gz
+reproduction/*/assets/
+reproduction/*/synthetic_source_originals/

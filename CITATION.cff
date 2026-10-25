@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "Please cite the accompanying study when using this research release."
+title: "Computational imaging through turbid, bubbly and flowing water near the telescope"
+type: software
+version: "2026.10.25"
+date-released: "2026-10-25"
+authors:
+  - family-names: Ingold
+    given-names: Alexander
+  - family-names: Menon
+    given-names: Sabina D.
+  - family-names: Umamageswaran
+    given-names: Aadhi
+  - family-names: Ikei
+    given-names: Alec
+  - family-names: Hlaing
+    given-names: May H.
+  - family-names: Qadri
+    given-names: Syed N.
+  - family-names: Menon
+    given-names: Rajesh

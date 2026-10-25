@@ -1,0 +1,11 @@
+{
+  "UTC": "2026-10-16T10:13:17.447682+00:00",
+  "checkpoint_sha256": "b184401b9032235454bd2013129d898e45d02546b8b954a1a3571f5cc6b928cd",
+  "float32_sha256": "7398769b15b64a885ffc7d23c024bbddd49b8b7723cde57cc87de64b49941293",
+  "records": 329,
+  "identities": 72,
+  "CPU_metric_replay_max_error": 0.0,
+  "heldout_inference_passes": 1,
+  "selection_precedes_inference": true,
+  "evaluation_did_not_change_selection": true
+}

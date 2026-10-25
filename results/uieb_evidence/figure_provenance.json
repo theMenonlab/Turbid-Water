@@ -1,0 +1,180 @@
+{
+  "source_report_figure": 4,
+  "scenes": [
+    10488,
+    13252
+  ],
+  "excluded_scene": "432.png (whale)",
+  "compact_representatives": [
+    "raw_input",
+    "edvr_RGB_single_mixed",
+    "restormer_RGB_mean_mixed",
+    "nafnet_RGB_single_mixed"
+  ],
+  "representative_rule": "Highest mean RGB SSIM within each architecture among the frozen primary models on all890 paired images. Selection is over fixed trained models, not checkpoint reselection or per-scene output tuning.",
+  "scene_selection": "User selected the first two challenging scenes from Figure4 after reviewing the full report. These are selected qualitative examples, not an outcome-independent visual sample.",
+  "display": "Completed common16/long-edge256 PNGs; exact RGB[0,1] display, native evaluated aspect ratio, no crop/brightness/color fitting. No new inference.",
+  "sources": [
+    {
+      "case": "10488",
+      "method": "raw_input",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/raw_input.png",
+      "local": "assets/10488__raw_input.png",
+      "sha256": "a66eb0f605925b1171651bc328281b5f5549a9de45a66eadfe8d01b6261de2e7"
+    },
+    {
+      "case": "10488",
+      "method": "edvr_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/edvr_RGB_single_mixed.png",
+      "local": "assets/10488__edvr_RGB_single_mixed.png",
+      "sha256": "5acd22976d6f6d8f579c24d1e9866a7483fb1fc942722b31aa3af07b0c119c34"
+    },
+    {
+      "case": "10488",
+      "method": "edvr_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/edvr_RGB_mean_mixed.png",
+      "local": "assets/10488__edvr_RGB_mean_mixed.png",
+      "sha256": "a72649acc3a18ddb5a3fafb813d99ad9414e68077188f95aef198d432e889391"
+    },
+    {
+      "case": "10488",
+      "method": "edvr_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/edvr_RGB_burst_mixed.png",
+      "local": "assets/10488__edvr_RGB_burst_mixed.png",
+      "sha256": "0b867af5478d50de1a4b7a8ba46b6576f9be051c65e4a8920f82e736c34b0794"
+    },
+    {
+      "case": "10488",
+      "method": "restormer_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/restormer_RGB_single_mixed.png",
+      "local": "assets/10488__restormer_RGB_single_mixed.png",
+      "sha256": "5db09b476c13368bcb3500ed5d423e7e1ebebfd7347f0bfcb618f4a587a06151"
+    },
+    {
+      "case": "10488",
+      "method": "restormer_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/restormer_RGB_mean_mixed.png",
+      "local": "assets/10488__restormer_RGB_mean_mixed.png",
+      "sha256": "26173a78e38585c3a85dd84691d72db27f45b7f078c995f1047ff593e69e2dd6"
+    },
+    {
+      "case": "10488",
+      "method": "restormer_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/restormer_RGB_burst_mixed.png",
+      "local": "assets/10488__restormer_RGB_burst_mixed.png",
+      "sha256": "f5a696a3ff43fa6e3d0c043d904d61531ee68b48545334a7c988db740c53a58d"
+    },
+    {
+      "case": "10488",
+      "method": "restormer_RGB_burst_measured",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/restormer_RGB_burst_measured.png",
+      "local": "assets/10488__restormer_RGB_burst_measured.png",
+      "sha256": "1de228278ee8914b17f61a9e95c756c225b03e7eca067869f6ea19478782072b"
+    },
+    {
+      "case": "10488",
+      "method": "nafnet_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/nafnet_RGB_single_mixed.png",
+      "local": "assets/10488__nafnet_RGB_single_mixed.png",
+      "sha256": "7cae9fe91bb4c1adc1b1842aad187c88efe9e3436e27bc767e4e6136f47eb609"
+    },
+    {
+      "case": "10488",
+      "method": "nafnet_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/nafnet_RGB_mean_mixed.png",
+      "local": "assets/10488__nafnet_RGB_mean_mixed.png",
+      "sha256": "09160cf3db1beb8877cdcb91949d07897796dffe2fdf897d8a2b91bff7bdf077"
+    },
+    {
+      "case": "10488",
+      "method": "nafnet_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/10488/nafnet_RGB_burst_mixed.png",
+      "local": "assets/10488__nafnet_RGB_burst_mixed.png",
+      "sha256": "94753eb03df0db3808ce0fc2761dec5a82763344220a6f66885dcac864a69d53"
+    },
+    {
+      "case": "13252",
+      "method": "raw_input",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/raw_input.png",
+      "local": "assets/13252__raw_input.png",
+      "sha256": "77fdb81c630890ed2a2dedb408e97fe2d5f2ca7eb6a0a0e45104e97c67c98202"
+    },
+    {
+      "case": "13252",
+      "method": "edvr_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/edvr_RGB_single_mixed.png",
+      "local": "assets/13252__edvr_RGB_single_mixed.png",
+      "sha256": "e1c4eadea37c3dad5e9a25db1861c500cb282ed869c85f2218abaa438d3604a4"
+    },
+    {
+      "case": "13252",
+      "method": "edvr_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/edvr_RGB_mean_mixed.png",
+      "local": "assets/13252__edvr_RGB_mean_mixed.png",
+      "sha256": "6c7320770d6fbdfa36cfc1c6117d91e05498c429f61011e47e550c31b9b4621a"
+    },
+    {
+      "case": "13252",
+      "method": "edvr_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/edvr_RGB_burst_mixed.png",
+      "local": "assets/13252__edvr_RGB_burst_mixed.png",
+      "sha256": "be8429a8ad278f5ce527d79bbc2ea94126bdd1f29d34d1488c7f4556b0619178"
+    },
+    {
+      "case": "13252",
+      "method": "restormer_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/restormer_RGB_single_mixed.png",
+      "local": "assets/13252__restormer_RGB_single_mixed.png",
+      "sha256": "1c5f87bc3054b01795c9d083f47adc4b466b8fbf26be028be4245ab9cb426ee8"
+    },
+    {
+      "case": "13252",
+      "method": "restormer_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/restormer_RGB_mean_mixed.png",
+      "local": "assets/13252__restormer_RGB_mean_mixed.png",
+      "sha256": "e2431a63f2c390c620824b260a2195f32276eaa5690f955ac969985957fb4802"
+    },
+    {
+      "case": "13252",
+      "method": "restormer_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/restormer_RGB_burst_mixed.png",
+      "local": "assets/13252__restormer_RGB_burst_mixed.png",
+      "sha256": "7fd26646dc044f460f1590878129c7bcc07de63d32ebaf2443cd8cdf7fd2d9ca"
+    },
+    {
+      "case": "13252",
+      "method": "restormer_RGB_burst_measured",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/restormer_RGB_burst_measured.png",
+      "local": "assets/13252__restormer_RGB_burst_measured.png",
+      "sha256": "5dd60ddbb770d76bcf70086be9272a2a4c0fd7660814817944f0dd96aafd5806"
+    },
+    {
+      "case": "13252",
+      "method": "nafnet_RGB_single_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/nafnet_RGB_single_mixed.png",
+      "local": "assets/13252__nafnet_RGB_single_mixed.png",
+      "sha256": "22f21930864b48004ef6ec4023643398238edffec6fe45d295077ca36a950d9d"
+    },
+    {
+      "case": "13252",
+      "method": "nafnet_RGB_mean_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/nafnet_RGB_mean_mixed.png",
+      "local": "assets/13252__nafnet_RGB_mean_mixed.png",
+      "sha256": "554c0e7ad3868bc625b6d1a684859ab33a8343e82737f9583f715cf761778022"
+    },
+    {
+      "case": "13252",
+      "method": "nafnet_RGB_burst_mixed",
+      "input": "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/predictions/challenging/13252/nafnet_RGB_burst_mixed.png",
+      "local": "assets/13252__nafnet_RGB_burst_mixed.png",
+      "sha256": "3551cdccd7a1d094551ad020618501a77109298eb00f5f4ace607838fd4d5e9d"
+    }
+  ],
+  "protected_before": {
+    "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/latex_report/main.tex": "d965cb4f0bf1d5b167adf402786f95548ad311cbb1d8c85190d920071c79722d",
+    "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/latex_report/NRL_UIEB_transfer_benchmark_20261021.pdf": "485f2e5942cdd5ac613c9ed422e6f26e6a8304b7d86c028ab5a29170524c79d2",
+    "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/full_benchmark/results/aggregate_metrics.csv": "cccd8407172a59c6b1dc30883de56a358ba0224bb8efa5d55df8f8aa39d6029c",
+    "/media/al/ingold_20260515/NRL_archive/NRL/turbid_water/UIEB_transfer_20261021/protocol/models.json": "8459e9da90dc50a7b7df728d43d875222b83f4e7375e6111650b66efaef8c247",
+    "/home/al/Documents/Codex/2026-10-16/task/supplement_final_cleanup_20261017/NRL_supplement_Overleaf_final_20261017/main.tex": "1f357c5ee74abb8c0b55e2edea91e6f6097176b572ddce4264ffc4b7ad1fae57"
+  }
+}

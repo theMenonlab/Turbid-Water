@@ -1,0 +1,2000 @@
+{
+  "cases": [
+    {
+      "case_id": "01_clear__01_usaf_near",
+      "condition_label": "Clear water",
+      "subject_label": "USAF near view",
+      "input": "assets/physical24/01_clear__01_usaf_near.npy",
+      "input_sha256": "4db028fc369c4f80cabd524722ebeb48fa58c0b850d230d272a176e9d71c4130",
+      "indices": [
+        0,
+        16,
+        31,
+        47,
+        63,
+        79,
+        94,
+        110
+      ],
+      "source_sha256": "d9ca9c59f63b002d29ce5f0d07e471cdd135bb203c05d3db539d3cd6161eb6f1",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/clear.mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 8192,
+          "best_effort_timestamp_time": "0.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15872,
+          "best_effort_timestamp_time": "1.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 24064,
+          "best_effort_timestamp_time": "2.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 32256,
+          "best_effort_timestamp_time": "3.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 40448,
+          "best_effort_timestamp_time": "3.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 48128,
+          "best_effort_timestamp_time": "4.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 56320,
+          "best_effort_timestamp_time": "5.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "01_clear__03_dot_grid",
+      "condition_label": "Clear water",
+      "subject_label": "Dot grid",
+      "input": "assets/physical24/01_clear__03_dot_grid.npy",
+      "input_sha256": "ed18e3904136a6e91e7e0b337f1d86a1c71d34c6f5da1f5573f39e846bde1510",
+      "indices": [
+        0,
+        15,
+        31,
+        46,
+        62,
+        77,
+        93,
+        108
+      ],
+      "source_sha256": "93ba9840ddec2e7765bcd2d691d99160cd6af61383c52a3a8ecd0792f31f5a58",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/clear (3).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15872,
+          "best_effort_timestamp_time": "1.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 23552,
+          "best_effort_timestamp_time": "2.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31744,
+          "best_effort_timestamp_time": "3.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 39424,
+          "best_effort_timestamp_time": "3.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 47616,
+          "best_effort_timestamp_time": "4.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 55296,
+          "best_effort_timestamp_time": "5.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "01_clear__04_siemens_star",
+      "condition_label": "Clear water",
+      "subject_label": "Siemens star",
+      "input": "assets/physical24/01_clear__04_siemens_star.npy",
+      "input_sha256": "e081969542ada1fef11bc0db3909b0e43c83939c20261a7390714cc669e9daf6",
+      "indices": [
+        0,
+        16,
+        31,
+        47,
+        62,
+        78,
+        93,
+        109
+      ],
+      "source_sha256": "824d354d296745f112bf5453ea4d46c8cea3b78a7dc91f7553769438c303b034",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/clear (4).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 8192,
+          "best_effort_timestamp_time": "0.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15872,
+          "best_effort_timestamp_time": "1.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 24064,
+          "best_effort_timestamp_time": "2.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31744,
+          "best_effort_timestamp_time": "3.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 39936,
+          "best_effort_timestamp_time": "3.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 47616,
+          "best_effort_timestamp_time": "4.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 55808,
+          "best_effort_timestamp_time": "5.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "01_clear__09_usaf_distant",
+      "condition_label": "Clear water",
+      "subject_label": "USAF distant view",
+      "input": "assets/physical24/01_clear__09_usaf_distant.npy",
+      "input_sha256": "2e2bef62f571ed9cbe6352f91130ad425a566f905486785a1dcd731024284979",
+      "indices": [
+        0,
+        14,
+        29,
+        43,
+        57,
+        71,
+        86,
+        100
+      ],
+      "source_sha256": "4a3423e77acd283b93459c0ab21585404e7b166e1d47ac1b5320cbd978997a55",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/clear (9).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14848,
+          "best_effort_timestamp_time": "1.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 22016,
+          "best_effort_timestamp_time": "2.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 29184,
+          "best_effort_timestamp_time": "2.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 36352,
+          "best_effort_timestamp_time": "3.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 44032,
+          "best_effort_timestamp_time": "4.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 51200,
+          "best_effort_timestamp_time": "5.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_01",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 01",
+      "input": "assets/physical24/04_turbid__object_01.npy",
+      "input_sha256": "330b82ed4f0bfadedada14fc6b451c054853dfba7efa9ac2d6f445a0919f1140",
+      "indices": [
+        0,
+        16,
+        33,
+        49,
+        65,
+        81,
+        98,
+        114
+      ],
+      "source_sha256": "fb88c131ba6d5ea1dcbf38bf88a0fc152453210fc5e61b6fefd7b87be25674e0",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty.mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 8192,
+          "best_effort_timestamp_time": "0.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 16896,
+          "best_effort_timestamp_time": "1.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25088,
+          "best_effort_timestamp_time": "2.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 33280,
+          "best_effort_timestamp_time": "3.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 41472,
+          "best_effort_timestamp_time": "4.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 50176,
+          "best_effort_timestamp_time": "4.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 58368,
+          "best_effort_timestamp_time": "5.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_02",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 02",
+      "input": "assets/physical24/04_turbid__object_02.npy",
+      "input_sha256": "1b44e5943dadee489388a03d916b60ef941a4941c38b027e48554b8387e3cd4b",
+      "indices": [
+        0,
+        13,
+        26,
+        39,
+        53,
+        66,
+        79,
+        92
+      ],
+      "source_sha256": "c9feec09a4b68b00a9018fe33f425413dbf68fd3a50feac4c3b3ee3148675d59",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty (2).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 13312,
+          "best_effort_timestamp_time": "1.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 19968,
+          "best_effort_timestamp_time": "1.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 27136,
+          "best_effort_timestamp_time": "2.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 33792,
+          "best_effort_timestamp_time": "3.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 40448,
+          "best_effort_timestamp_time": "3.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 47104,
+          "best_effort_timestamp_time": "4.600000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_03",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 03",
+      "input": "assets/physical24/04_turbid__object_03.npy",
+      "input_sha256": "5d8200b6718becac6e8412245913bb3786d45301be759a04ae5d162ff049f58d",
+      "indices": [
+        0,
+        14,
+        28,
+        42,
+        55,
+        69,
+        83,
+        97
+      ],
+      "source_sha256": "ad001f2fe78503f85e631385d4d11a0a2775045ffcb75fed5c6ee12163923879",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty (3).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14336,
+          "best_effort_timestamp_time": "1.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 21504,
+          "best_effort_timestamp_time": "2.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 28160,
+          "best_effort_timestamp_time": "2.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 35328,
+          "best_effort_timestamp_time": "3.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 42496,
+          "best_effort_timestamp_time": "4.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 49664,
+          "best_effort_timestamp_time": "4.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_04",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 04",
+      "input": "assets/physical24/04_turbid__object_04.npy",
+      "input_sha256": "c732cea08211dd441141a3c106a24726551dfbdc9b18b8c573ccfdbfaea1a819",
+      "indices": [
+        0,
+        15,
+        31,
+        46,
+        62,
+        77,
+        93,
+        108
+      ],
+      "source_sha256": "bf6153a32f30778aa73b765277e1ec29be317b68b659c3a273696a2c70f377dd",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty (4).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15872,
+          "best_effort_timestamp_time": "1.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 23552,
+          "best_effort_timestamp_time": "2.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31744,
+          "best_effort_timestamp_time": "3.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 39424,
+          "best_effort_timestamp_time": "3.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 47616,
+          "best_effort_timestamp_time": "4.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 55296,
+          "best_effort_timestamp_time": "5.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_05",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 05",
+      "input": "assets/physical24/04_turbid__object_05.npy",
+      "input_sha256": "35310e1cd1fbdcf2e7c4b9f3abc864103b6e07aa92d599e54ba589db0925d67c",
+      "indices": [
+        0,
+        12,
+        24,
+        36,
+        49,
+        61,
+        73,
+        85
+      ],
+      "source_sha256": "2fd7f51c5f9f3030b954864d0fcb208164b4d6791e4261fccbfd688216a32a71",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty (5).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6144,
+          "best_effort_timestamp_time": "0.600000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 12288,
+          "best_effort_timestamp_time": "1.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 18432,
+          "best_effort_timestamp_time": "1.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25088,
+          "best_effort_timestamp_time": "2.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31232,
+          "best_effort_timestamp_time": "3.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 37376,
+          "best_effort_timestamp_time": "3.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 43520,
+          "best_effort_timestamp_time": "4.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "04_turbid__object_06",
+      "condition_label": "Turbid water",
+      "subject_label": "Physical object 06",
+      "input": "assets/physical24/04_turbid__object_06.npy",
+      "input_sha256": "c8e60aa178e6a26483208f442a0b9aefc687344798e63476eb96d836ea25cc73",
+      "indices": [
+        0,
+        15,
+        30,
+        45,
+        61,
+        76,
+        91,
+        106
+      ],
+      "source_sha256": "1298a7aff84ab22720e240e34f45d03b27d5f0d63279c3c5868b1f489bf38de7",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/plain_dirty (6).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15360,
+          "best_effort_timestamp_time": "1.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 23040,
+          "best_effort_timestamp_time": "2.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31232,
+          "best_effort_timestamp_time": "3.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38912,
+          "best_effort_timestamp_time": "3.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 46592,
+          "best_effort_timestamp_time": "4.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 54272,
+          "best_effort_timestamp_time": "5.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_01",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 01",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_01.npy",
+      "input_sha256": "5c1f5b23b4d7c08f8af9dc57e9d5f967a7c0cbacac7404d5d67f186e063e4358",
+      "indices": [
+        0,
+        15,
+        29,
+        44,
+        58,
+        73,
+        87,
+        102
+      ],
+      "source_sha256": "94b1db56c299f010f87a6f04bf2ee94fa6e40ffc26f91caa373ad2916cbed1d5",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor.mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14848,
+          "best_effort_timestamp_time": "1.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 22528,
+          "best_effort_timestamp_time": "2.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 29696,
+          "best_effort_timestamp_time": "2.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 37376,
+          "best_effort_timestamp_time": "3.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 44544,
+          "best_effort_timestamp_time": "4.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 52224,
+          "best_effort_timestamp_time": "5.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_02",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 02",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_02.npy",
+      "input_sha256": "4cb04bbad6a8df4657b645c1c616351856cfd5859ffd0d43de054afca55c01ed",
+      "indices": [
+        0,
+        11,
+        22,
+        33,
+        43,
+        54,
+        65,
+        76
+      ],
+      "source_sha256": "d5754df740fb922d9386f35527dd622fe5d1def781bad5758d0fa4586754c554",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (2).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 5632,
+          "best_effort_timestamp_time": "0.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 11264,
+          "best_effort_timestamp_time": "1.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 16896,
+          "best_effort_timestamp_time": "1.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 22016,
+          "best_effort_timestamp_time": "2.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 27648,
+          "best_effort_timestamp_time": "2.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 33280,
+          "best_effort_timestamp_time": "3.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38912,
+          "best_effort_timestamp_time": "3.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_03",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 03",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_03.npy",
+      "input_sha256": "99f6f0e84be182de4bfe11e4274927f9ce669ccc08e5d9ab5c3ea6a573aef77c",
+      "indices": [
+        0,
+        12,
+        25,
+        37,
+        50,
+        62,
+        75,
+        87
+      ],
+      "source_sha256": "37eed137559d129c0099bfdd6b9d9824493d3f2ab62fb36e58b1a445e2aa9200",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (3).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6144,
+          "best_effort_timestamp_time": "0.600000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 12800,
+          "best_effort_timestamp_time": "1.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 18944,
+          "best_effort_timestamp_time": "1.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25600,
+          "best_effort_timestamp_time": "2.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31744,
+          "best_effort_timestamp_time": "3.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38400,
+          "best_effort_timestamp_time": "3.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 44544,
+          "best_effort_timestamp_time": "4.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_04",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 04",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_04.npy",
+      "input_sha256": "388d9e008bf37cb39ce3f683d7945526bd805b7117b7afe9ab8476bc2ffaf7ed",
+      "indices": [
+        0,
+        14,
+        27,
+        41,
+        54,
+        68,
+        81,
+        95
+      ],
+      "source_sha256": "ece4144ad1fd7f84a173ff9fe4885819c35f022c3c738e64f7041928aa6abb96",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (4).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 13824,
+          "best_effort_timestamp_time": "1.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 20992,
+          "best_effort_timestamp_time": "2.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 27648,
+          "best_effort_timestamp_time": "2.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 34816,
+          "best_effort_timestamp_time": "3.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 41472,
+          "best_effort_timestamp_time": "4.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 48640,
+          "best_effort_timestamp_time": "4.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_05",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 05",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_05.npy",
+      "input_sha256": "cdd5e5f56a01ba5f040e0ca2d55f1fe454911e45e016c5c2b1637eb51b5be97d",
+      "indices": [
+        0,
+        15,
+        29,
+        44,
+        59,
+        74,
+        88,
+        103
+      ],
+      "source_sha256": "91c4c9738ef45f462c1b26893abfb3d5f09d43d39b129debce3b72341e71e693",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (5).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14848,
+          "best_effort_timestamp_time": "1.450000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 22528,
+          "best_effort_timestamp_time": "2.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 30208,
+          "best_effort_timestamp_time": "2.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 37888,
+          "best_effort_timestamp_time": "3.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 45056,
+          "best_effort_timestamp_time": "4.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 52736,
+          "best_effort_timestamp_time": "5.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "06_high_motor_bubbles_turbid__object_06",
+      "condition_label": "Turbid water + bubbles + high motor",
+      "subject_label": "Physical object 06",
+      "input": "assets/physical24/06_high_motor_bubbles_turbid__object_06.npy",
+      "input_sha256": "0cb25d93f1bb07a30d996f5018b89d60859d851339711fdbb9402832b7b34ff8",
+      "indices": [
+        0,
+        13,
+        27,
+        40,
+        54,
+        67,
+        81,
+        94
+      ],
+      "source_sha256": "786fe35d49209db8c6efa38149152881f98743d1782abfe08832d1aedfb839fb",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_DirtyWater-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (6).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 13824,
+          "best_effort_timestamp_time": "1.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 20480,
+          "best_effort_timestamp_time": "2.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 27648,
+          "best_effort_timestamp_time": "2.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 34304,
+          "best_effort_timestamp_time": "3.350000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 41472,
+          "best_effort_timestamp_time": "4.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 48128,
+          "best_effort_timestamp_time": "4.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_bubbles_clear_water__01_usaf_near",
+      "condition_label": "Clear water + bubbles",
+      "subject_label": "USAF near view",
+      "input": "assets/physical24/extra_bubbles_clear_water__01_usaf_near.npy",
+      "input_sha256": "794241f1990e27f0d102989ebb20da9b3456cb5e6b188845b3dd33478c0faffc",
+      "indices": [
+        0,
+        14,
+        28,
+        42,
+        57,
+        71,
+        85,
+        99
+      ],
+      "source_sha256": "198a265b18a1ecf65733f96dfd942c6c96c37595dc9af536653453bad22955fc",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles.mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14336,
+          "best_effort_timestamp_time": "1.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 21504,
+          "best_effort_timestamp_time": "2.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 29184,
+          "best_effort_timestamp_time": "2.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 36352,
+          "best_effort_timestamp_time": "3.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 43520,
+          "best_effort_timestamp_time": "4.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 50688,
+          "best_effort_timestamp_time": "4.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_bubbles_clear_water__03_dot_grid",
+      "condition_label": "Clear water + bubbles",
+      "subject_label": "Dot grid",
+      "input": "assets/physical24/extra_bubbles_clear_water__03_dot_grid.npy",
+      "input_sha256": "1f8ef0fb77c139f5586b371c8cb8e2badd63fc6d271de304ddd6fb2856fe96a3",
+      "indices": [
+        0,
+        14,
+        28,
+        42,
+        56,
+        70,
+        84,
+        98
+      ],
+      "source_sha256": "4120833e0c4ab5aec7edf16050124f6f90572c31cbe75d25f876e78c8be2dbe3",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles (3).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14336,
+          "best_effort_timestamp_time": "1.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 21504,
+          "best_effort_timestamp_time": "2.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 28672,
+          "best_effort_timestamp_time": "2.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 35840,
+          "best_effort_timestamp_time": "3.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 43008,
+          "best_effort_timestamp_time": "4.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 50176,
+          "best_effort_timestamp_time": "4.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_bubbles_clear_water__04_siemens_star",
+      "condition_label": "Clear water + bubbles",
+      "subject_label": "Siemens star",
+      "input": "assets/physical24/extra_bubbles_clear_water__04_siemens_star.npy",
+      "input_sha256": "557067db36c80198a76b0860f082feb0df8719754db30fe5d7a619f4b5d134f2",
+      "indices": [
+        0,
+        14,
+        28,
+        42,
+        56,
+        70,
+        84,
+        98
+      ],
+      "source_sha256": "312320a1d726fdaca9768ae439d4e8d3165ee2bdfa53c692fa89dc3cb1af73ee",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles (4).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7168,
+          "best_effort_timestamp_time": "0.700000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 14336,
+          "best_effort_timestamp_time": "1.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 21504,
+          "best_effort_timestamp_time": "2.100000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 28672,
+          "best_effort_timestamp_time": "2.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 35840,
+          "best_effort_timestamp_time": "3.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 43008,
+          "best_effort_timestamp_time": "4.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 50176,
+          "best_effort_timestamp_time": "4.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_bubbles_clear_water__09_usaf_distant",
+      "condition_label": "Clear water + bubbles",
+      "subject_label": "USAF distant view",
+      "input": "assets/physical24/extra_bubbles_clear_water__09_usaf_distant.npy",
+      "input_sha256": "0fbfd0f0aa49aa3bdbc241219aa349cdd702435fe0fbcabd769a774c8f660871",
+      "indices": [
+        0,
+        13,
+        25,
+        38,
+        50,
+        63,
+        75,
+        88
+      ],
+      "source_sha256": "25cb8f8a62575f8f68b3ea5d6800b532b7528ac9923b732df1e7d5b447b52f1e",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles (9).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 12800,
+          "best_effort_timestamp_time": "1.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 19456,
+          "best_effort_timestamp_time": "1.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25600,
+          "best_effort_timestamp_time": "2.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 32256,
+          "best_effort_timestamp_time": "3.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38400,
+          "best_effort_timestamp_time": "3.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 45056,
+          "best_effort_timestamp_time": "4.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_high_motor_bubbles_clear_water__01_usaf_near",
+      "condition_label": "Clear water + bubbles + high motor",
+      "subject_label": "USAF near view",
+      "input": "assets/physical24/extra_high_motor_bubbles_clear_water__01_usaf_near.npy",
+      "input_sha256": "875f031c2e5ecd25d31741d76b075071fea053e8f8d9ad17086825cef2af9c27",
+      "indices": [
+        0,
+        13,
+        25,
+        38,
+        50,
+        63,
+        75,
+        88
+      ],
+      "source_sha256": "83552171d7c38c270ef0dff7f927804e5a5af30c5187eb6c071eaa38b83890e6",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor.mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 12800,
+          "best_effort_timestamp_time": "1.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 19456,
+          "best_effort_timestamp_time": "1.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25600,
+          "best_effort_timestamp_time": "2.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 32256,
+          "best_effort_timestamp_time": "3.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38400,
+          "best_effort_timestamp_time": "3.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 45056,
+          "best_effort_timestamp_time": "4.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_high_motor_bubbles_clear_water__03_dot_grid",
+      "condition_label": "Clear water + bubbles + high motor",
+      "subject_label": "Dot grid",
+      "input": "assets/physical24/extra_high_motor_bubbles_clear_water__03_dot_grid.npy",
+      "input_sha256": "71d52cd6226e419c6f95ec6991a86bd4e985de165359ea4dce0ad253f7b9f0f3",
+      "indices": [
+        0,
+        13,
+        26,
+        39,
+        51,
+        64,
+        77,
+        90
+      ],
+      "source_sha256": "423c022b6dafcde95a793d8d14edb38c5858156e8d0402991f4edfd1ef319232",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (3).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 13312,
+          "best_effort_timestamp_time": "1.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 19968,
+          "best_effort_timestamp_time": "1.950000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 26112,
+          "best_effort_timestamp_time": "2.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 32768,
+          "best_effort_timestamp_time": "3.200000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 39424,
+          "best_effort_timestamp_time": "3.850000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 46080,
+          "best_effort_timestamp_time": "4.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_high_motor_bubbles_clear_water__04_siemens_star",
+      "condition_label": "Clear water + bubbles + high motor",
+      "subject_label": "Siemens star",
+      "input": "assets/physical24/extra_high_motor_bubbles_clear_water__04_siemens_star.npy",
+      "input_sha256": "7f47da6757145cbf04f3e011ec9156120c3c30ec95406638103f8dd29445b14b",
+      "indices": [
+        0,
+        13,
+        25,
+        38,
+        50,
+        63,
+        75,
+        88
+      ],
+      "source_sha256": "48b19b970c48203d67fbc1c4df019c471b769712adb8b7e741fe4fd4ca4454bd",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (4).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 6656,
+          "best_effort_timestamp_time": "0.650000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 12800,
+          "best_effort_timestamp_time": "1.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 19456,
+          "best_effort_timestamp_time": "1.900000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 25600,
+          "best_effort_timestamp_time": "2.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 32256,
+          "best_effort_timestamp_time": "3.150000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38400,
+          "best_effort_timestamp_time": "3.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 45056,
+          "best_effort_timestamp_time": "4.400000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    },
+    {
+      "case_id": "extra_high_motor_bubbles_clear_water__09_usaf_distant",
+      "condition_label": "Clear water + bubbles + high motor",
+      "subject_label": "USAF distant view",
+      "input": "assets/physical24/extra_high_motor_bubbles_clear_water__09_usaf_distant.npy",
+      "input_sha256": "119ab554efe534070d8ef4d08e33d4e903c274d4a3e256474fb2e93d0ced8667",
+      "indices": [
+        0,
+        15,
+        30,
+        45,
+        61,
+        76,
+        91,
+        106
+      ],
+      "source_sha256": "3dca482904acf3c3140d320d834a0e30dd8b17913a1563489a88d4b2541c98ac",
+      "original_video": "/home/al/Documents/NRL/datasets/NRL_Video_Processing/Seestar_RealObjects_WaterTank-Bubbles&HighMotor_(06_26_26)/bubbles&highmotor (9).mp4",
+      "GT_available": false,
+      "source_pts": [
+        {
+          "best_effort_timestamp": 0,
+          "best_effort_timestamp_time": "0.000000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512,
+          "side_data_list": [
+            {
+              "side_data_type": "H.26[45] User Data Unregistered SEI message"
+            }
+          ]
+        },
+        {
+          "best_effort_timestamp": 7680,
+          "best_effort_timestamp_time": "0.750000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 15360,
+          "best_effort_timestamp_time": "1.500000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 23040,
+          "best_effort_timestamp_time": "2.250000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 31232,
+          "best_effort_timestamp_time": "3.050000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 38912,
+          "best_effort_timestamp_time": "3.800000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 46592,
+          "best_effort_timestamp_time": "4.550000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        },
+        {
+          "best_effort_timestamp": 54272,
+          "best_effort_timestamp_time": "5.300000",
+          "pkt_duration_time": "0.050000",
+          "width": 512,
+          "height": 512
+        }
+      ]
+    }
+  ],
+  "selection": "All24 documented handoff cases, one existing predetermined eight-frame burst per subject-condition. No model-outcome or quality selection.",
+  "no_GT": true,
+  "no_classification_labels": true,
+  "training_used": false
+}

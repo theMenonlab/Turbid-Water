@@ -1,0 +1,20 @@
+NAFNET TRIO COMPLETE — 16 OCTOBER 2026
+
+Task Spooler job44 exited0 at10:13:26UTC. Allthree independent jointRGB fits completed65536updates each, no training failures, and allselected/final checkpoints are preserved. GPU released. Monitor completed normally.
+
+Official NAFNet commit2b4af71ebe098a92a75910c233a3965a3e93ede4, published GoPro width32 topology; only24-channelstem andRGBmeanresidual adaptation.17117955parameters/model; fresh shared seed1337initialization. See README_NAFNET.txt andconfig/CAMPAIGN_v1.json for exact inputs,optimizer,loss anddata protocol.
+
+Model       Selected update   Tune SSIM   Eval SSIM    Eval PSNR(dB)   Eval MAE
+single         55296          0.614918    0.628372     19.624441       0.080708
+mean           53248          0.644106    0.655041     19.709241       0.083121
+burst          53248          0.642945    0.656210     19.712173       0.081810
+
+Evaluation support: identical frozen329records/72identities; condition-within-identity weighting. This cohort is historically reused. Allthree tune-only selections were frozen before heldout inference. No test-set model selection. One training seed; the small burst-versus-mean metric difference is not evidence of statistical superiority.
+
+Final audit: all196608trainingdraws andall35tuningmilestones/model verified; selected/final weights andall664Adamparameterstates/model finite; all23boundcode/config/assetfiles match; selected/final hashes match freeze; savedfloat32outputs match recorded hashes. Independent CPUreplay ofall987outputs reproducesrecordmetrics andaggregates exactly(maxerror0), without repeated model inference.
+
+Nativefixedexamples: inspectedfirst/middle/lastevaluationrecords foreach model. Outputsrestorecontrast/color butremain blurred with distortedfine detail; no visual-qualityoroptical-ceilingclaim. Threefixedexamples/model are not acomprehensivevisualreview.
+
+Deliverables: audit/FINAL_HANDOFF.json; results/ALL_THREE_SELECTIONS_FROZEN.json; results/restoration/<run>/best.pth andresume.pth; results/evaluation/PAIRED_SUMMARY.csv andPAIRED_PER_RECORD.csv; permodel *_float32.npy and*_fixed_examples.png.
+
+Manuscript and Menon packages unchanged. No blockers.

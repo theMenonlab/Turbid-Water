@@ -1,0 +1,63 @@
+{
+  "UTC": "2026-10-16T10:12:58.529427+00:00",
+  "runs": [
+    {
+      "UTC": "2026-10-16T03:29:43.816090+00:00",
+      "run_id": "nafnet_RGB_single_mixed",
+      "updates": 65536,
+      "weights_and_optimizer_finite": true,
+      "optimizer_parameter_states": 664,
+      "curve_complete_exact_draws_verified": true,
+      "tuning_records_per_milestone": 365,
+      "tuning_milestones": 35,
+      "earliest_tune_maximum_verified": true,
+      "selected_step": 55296,
+      "best_tune_ssim": 0.6149175897113427,
+      "best_sha256": "c912990d57fbac0d635d41fac58aa09d39dbcc1bf3f204949d0548333d451778",
+      "final_resume_sha256": "f7c3906b2fb0f0cb8511d676eec52463b0b0675710512223e886134f50e87373",
+      "initial_state_sha256": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2",
+      "protocol_sha256": "70a64870e405c4e37ac8f1c8abff05c57e091394b566265b7fedf458e6fe2985",
+      "heldout_used_for_selection": false,
+      "stage_wall_seconds": 12386.403947114013
+    },
+    {
+      "UTC": "2026-10-16T06:51:52.262249+00:00",
+      "run_id": "nafnet_RGB_mean_mixed",
+      "updates": 65536,
+      "weights_and_optimizer_finite": true,
+      "optimizer_parameter_states": 664,
+      "curve_complete_exact_draws_verified": true,
+      "tuning_records_per_milestone": 365,
+      "tuning_milestones": 35,
+      "earliest_tune_maximum_verified": true,
+      "selected_step": 53248,
+      "best_tune_ssim": 0.6441063375144562,
+      "best_sha256": "b184401b9032235454bd2013129d898e45d02546b8b954a1a3571f5cc6b928cd",
+      "final_resume_sha256": "808e89f6b23a1a5a2810349324bcc20e619fe9477eb368e30056974a16c7f3b0",
+      "initial_state_sha256": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2",
+      "protocol_sha256": "70a64870e405c4e37ac8f1c8abff05c57e091394b566265b7fedf458e6fe2985",
+      "heldout_used_for_selection": false,
+      "stage_wall_seconds": 12127.96191048299
+    },
+    {
+      "UTC": "2026-10-16T10:12:58.442334+00:00",
+      "run_id": "nafnet_RGB_burst_mixed",
+      "updates": 65536,
+      "weights_and_optimizer_finite": true,
+      "optimizer_parameter_states": 664,
+      "curve_complete_exact_draws_verified": true,
+      "tuning_records_per_milestone": 365,
+      "tuning_milestones": 35,
+      "earliest_tune_maximum_verified": true,
+      "selected_step": 53248,
+      "best_tune_ssim": 0.6429452703287708,
+      "best_sha256": "b0c0e95ddf59ce6edcf370a824691652ab2b48de0b020f4edca44644c05b7535",
+      "final_resume_sha256": "e4e391a12a5e3bd9d7171219f9aa8e50f8d136a4bf6e229ba196fe8e8700a4bf",
+      "initial_state_sha256": "71b7e9da9a8afa1d7e8b427381424b25b0d68b1a60b000dec7e8944e935e94d2",
+      "protocol_sha256": "70a64870e405c4e37ac8f1c8abff05c57e091394b566265b7fedf458e6fe2985",
+      "heldout_used_for_selection": false,
+      "stage_wall_seconds": 12065.510552566993
+    }
+  ],
+  "heldout_used": false
+}

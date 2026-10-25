@@ -1,0 +1,28 @@
+{
+  "status": "ISOLATED_OFFICIAL_NAFNET_THREE_RGB_FITS",
+  "files": {
+    "code/campaign_common.py": "272187d7bf0bd83f441ffda97c851fe9a26159a115b9e61ae2ac96fdf84ed0ed",
+    "code/campaign_functions.py": "4713175d1bf57b443ed5e45f1cad555c6d47313f3ebb1fc7d3658a234fda163e",
+    "code/campaign_models.py": "5b2d012ac4c27289c6091d8a07e0ba9d02ef49b916e60cffe54269ac606ace4a",
+    "code/campaign_train.py": "cb4a16e333ce5d4c9cf94d25a852821429d44166dc14099cb615b9b0b6066cb8",
+    "code/evaluate_frozen.py": "87cc23e43f7b8e867bf0a239a9b1f34df602dac28df800ee150b95845ca96d1f",
+    "code/guarded_train.py": "2da29b83b09be4b95242c81323c95dbe0ed4b08127a1750867d5eba8ba945034",
+    "code/preflight.py": "7e6a078013ffa764d093e79674a7bd4457bf9bd47fab147e74ceb0712479435d",
+    "code/run_full.sh": "8f7038340fa611ce9dc8d0f36794b150c90a68ffb3422d746a35d3e8f8f0c5be",
+    "code/run_gate.sh": "4e24548dd5379bc188bc15c3d8a6ea593b922163edb98b07648203853e74a771",
+    "code/vendor/NAFNet/LICENSE": "a29ecef3456149898f08e4c71b11b33e7d333664e087bc212e84e18ddd6599ad",
+    "code/vendor/NAFNet/NAFNet-width32.yml": "b7b962c3fc016dce5471fae67e6929f87859466fd1bfbf057d368973684fb4c1",
+    "code/vendor/NAFNet/NAFNet_arch.py": "01b22270cc93f1bb90c0e3e4490e98b023fcf73f8552860b4a9ee880ce5c6967",
+    "code/vendor/NAFNet/arch_util.py": "5a11af2e7c2d7a7b57c1fbd7e19cf0a50b4b4e8c7ae7dd203a915d7a707e7005",
+    "code/vendor/NAFNet/local_arch.py": "c4df2ba4d896442a0f6ec984accd6e68f31edce3afdf066add202c25a0d1af26",
+    "code/verify_fit.py": "909890d433f43198cd4e77ea38512f2a78847ed647671f77400d0b36b537985f",
+    "code/water_generator.py": "ba6de5ae952e380df4a2dafd253b87b61b8f37f335c5be588da55a76f9fcc665",
+    "code/workflow.py": "0658fb602d6ca39c57cd2eaa5eee29d7b9082b4e27b200d0fb7ef1d588bdb06a",
+    "config/CAMPAIGN_v1.json": "70a64870e405c4e37ac8f1c8abff05c57e091394b566265b7fedf458e6fe2985",
+    "config/draws.json": "b8cb484171b4330bde8b0b07424e14eee79a8de353f3701ab15466d240ef3e3f",
+    "assets/nafnet_initializer.pth": "356e7aa8f680041c46dff09603060937c9efa3d930c04b03b0243a31260936ca",
+    "audit/TRAIN_IMAGE_DOMAIN_INITIAL_STATISTICS.json": "df74105475b99d3d70b21f8f22112676563444185f40bae117a8ad043c9d45e5",
+    "audit/DATA_PREFLIGHT.json": "89fc6527c8e3b9e2ef2adf2061ae2787eecf5afdf5d5db0c3e7a493fa86ffacc",
+    "audit/ARCHITECTURE.json": "b69efbd85c8f6102baeebd00529808192fd41f8831ac2d24f85443a068a1fafd"
+  }
+}

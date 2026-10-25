@@ -1,0 +1,100 @@
+{
+  "UTC": "2026-10-17T21:29:17.385344+00:00",
+  "authorization": "Parent01a0f591 delegated Al request on2026-10-17: properly process downloaded valid completed runs and supply supplement editor; explicitly admits completed1337/4099 pairs with failed2027 disclosure.",
+  "amendment": "Replace the unmet all-four-additional-fit freeze prerequisite with freezing the four completed selected models at seeds1337/4099. Seed2027 mixed/measured are incomplete numerical failures and remain excluded from completed-seed summaries. No substitute seed, training restart or hyperparameter change.",
+  "timing": "Registered after original1337 heldout results and additional-run completion/failure/tuning information were already known; before any new4099 heldout inference. This is an explicit post-training amendment, not a fully prospective two-seed experiment.",
+  "scope": "Current expanded dataset only, Restormer jointRGB eight-frame burst measured-only versus mixed. No EDVR, single-frame, classifier fits or physical inference.",
+  "data_root": "/home/al/Documents/ChatGPT/NRL/turbid_water/final_paper_local_backup_20261014",
+  "manifest": "/home/al/Documents/ChatGPT/NRL/turbid_water/final_paper_local_backup_20261014/data/RESTORATION_PAIRED_MANIFEST_v1.json",
+  "manifest_sha256": "12cedc7d910c922c642693959dae31e962ce84c4aa0c09dafc97a5f76c36cb05",
+  "roles": {
+    "tune": {
+      "records": 365,
+      "identities": 76
+    },
+    "train": {
+      "records": 2648,
+      "identities": 580
+    },
+    "eval": {
+      "records": 329,
+      "identities": 72
+    }
+  },
+  "evaluation_reuse": "Historically reused evaluation identities/development cohort; no unseen-condition generalization claim.",
+  "training_budget": "65536 total updates per completed arm; mixed49152 measured+16384 synthetic, every fourth update synthetic; measured-only65536 measured. Initialization varies by seed; draws/generator schedule remain fixed. This is a matched-budget replacement recipe comparison.",
+  "metrics": "SSIM primary, PSNRdB and MAE secondary. Exact frozen campaign_evaluate formulas: saved raw float32 prediction; clip0to1 for scoring; SSIM skimage channel_axis2/data_range1/default7x7 uniform windows; PSNR float64 MSE floor1e-12; MAE float32 mean. No per-image fitting or quality exclusions.",
+  "aggregation": "Within identity and acquisition condition average recordings, then average available acquisition conditions within identity, then equally weight identities. Clear pools D1/D4 retaining acquisition-level averaging. Seven display conditions: Clear,LM,HM,C+B+M,T,T+B,T+B+HM.",
+  "paired_analysis": "For each seed and each cohort, subtract measured from mixed per-identity values. Report point delta and category-stratified paired identity percentile bootstrap95%CI,10000 draws. Use default_rng61014 reset per cohort/metric; identical index draws for both seeds. Two-seed mean CI resamples identity clusters jointly across seeds after averaging seed-specific identity deltas. No seed bootstrap.",
+  "seed_summary": "Mean and sample SD(ddof1) across exactly2 completed seeds, separately for each arm and paired delta; include individual seed values. Identity bootstrap CI conditions on these successful fits; it is not training-seed uncertainty, and neither is classifier three-seed SD. No confidence interval over the training-seed distribution from n2.",
+  "numeric": {
+    "precision": "FP32",
+    "cudnn_benchmark": false,
+    "cudnn_deterministic": true,
+    "cudnn_allow_tf32": false,
+    "matmul_allow_tf32": false
+  },
+  "evaluation_trials": "Only two new full329-record forwards(4099 mixed/measured), reusing verified1337 arrays. Fixed first/middle/last3 per arm are a finite/shape/runtime/visual gate, retained as first cached rows in full evaluation if gate passes. No score-based stopping; halt only on nonfinite values, shape/hash/identity/code mismatch, GPU conflict or runtime failure.",
+  "code_policy": "Use hash-pinned frozen RestormerCore and strict-load full selected state via same network namespace. Inference needs no initializer file; no random state may replace selected tensors. FP32 deterministic CUDA flags, one GPU model process at a time.",
+  "failed_seed2027": {
+    "mixed_failed_attempt": 15647,
+    "mixed_completed_updates": 15646,
+    "measured_failed_attempt": 6925,
+    "measured_completed_updates": 6924,
+    "outcome": "Both incomplete; report failure attrition and do not count finite step256 partial selections as successful fits."
+  },
+  "selections": [
+    {
+      "seed": 1337,
+      "run_id": "restormer_RGB_burst_mixed",
+      "checkpoint": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/restoration/restormer_RGB_burst_mixed/best.pth",
+      "checkpoint_sha256": "def68bf7a41e3664f07c11c9df11de7e662f8f3b9fa459c404ad87a72c5f73df",
+      "selected_step": 55296,
+      "selected_tune_ssim": 0.6673518472771279,
+      "training_protocol_sha256": "652e2e1d7283f37730e8b95367d0c75a0a8bcb447cee4c1b5a6597a637a5d772",
+      "COMPLETE": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/restoration/restormer_RGB_burst_mixed/COMPLETE.json",
+      "COMPLETE_sha256": "b18d7d9e698c6e3fece3e545034dc7a8eecb744623ae2cc03884efbde060d15a",
+      "reused_evaluation": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/combined_evaluation/restoration_restormer_RGB_burst_mixed.json",
+      "reused_evaluation_sha256": "933c9591371d66922678c8c4f1b9d381d3fbc1ad12b2382b2afa0b21348b19f5",
+      "reused_array": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/combined_evaluation/restoration_restormer_RGB_burst_mixed_float32.npy",
+      "reused_array_sha256": "f969a0f48f63f3165ad702e03c60dc2ec7dca3fe26347052e05d1b64b7506b46"
+    },
+    {
+      "seed": 1337,
+      "run_id": "restormer_RGB_burst_measured",
+      "checkpoint": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/restoration/restormer_RGB_burst_measured/best.pth",
+      "checkpoint_sha256": "14e54c9cfb84bee850af170e32d3186528a78ed237633e0307f14bcaaea75fe1",
+      "selected_step": 51200,
+      "selected_tune_ssim": 0.6650350294772648,
+      "training_protocol_sha256": "652e2e1d7283f37730e8b95367d0c75a0a8bcb447cee4c1b5a6597a637a5d772",
+      "COMPLETE": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/restoration/restormer_RGB_burst_measured/COMPLETE.json",
+      "COMPLETE_sha256": "52ddedaffd994f4f1381fd17c44918016319df99b1e29c88d000b34502ebbc40",
+      "reused_evaluation": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/combined_evaluation/restoration_restormer_RGB_burst_measured.json",
+      "reused_evaluation_sha256": "b63e0a16bfb6595a24fab068996eee973ec9fb20fbe2d63e9b5875c927d5c0bd",
+      "reused_array": "/home/al/Downloads/NRL_FINAL_SELECTED_20261014T210610Z/extracted/results/combined_evaluation/restoration_restormer_RGB_burst_measured_float32.npy",
+      "reused_array_sha256": "febb9777469e661d8166b72f7580d740c810caa54f89d96c6b1f0a9d95534b4c"
+    },
+    {
+      "seed": 4099,
+      "run_id": "restormer_RGB_burst_mixed",
+      "checkpoint": "/home/al/Documents/ChatGPT/NRL/turbid_water/chpc_restoration_seed_replication_20261015/retrieval_20261016/retrieved/seed4099/results/restoration/restormer_RGB_burst_mixed/best.pth",
+      "checkpoint_sha256": "efb52f4bde0c5a9a1098293e83570032ff59cfa19ada7e279d1feff64023f4dd",
+      "selected_step": 53248,
+      "selected_tune_ssim": 0.6659432567501987,
+      "training_protocol_sha256": "a1a53759726f287146e2fbb4938331e1af03e384779d60602296222085ea6ace",
+      "COMPLETE": "/home/al/Documents/ChatGPT/NRL/turbid_water/chpc_restoration_seed_replication_20261015/retrieval_20261016/retrieved/seed4099/results/restoration/restormer_RGB_burst_mixed/COMPLETE.json",
+      "COMPLETE_sha256": "77903d8cefa4793beb566ccd9b2052a2de1d23af832e176948225ecaacc6f1ce"
+    },
+    {
+      "seed": 4099,
+      "run_id": "restormer_RGB_burst_measured",
+      "checkpoint": "/home/al/Documents/ChatGPT/NRL/turbid_water/chpc_restoration_seed_replication_20261015/retrieval_20261016/retrieved/seed4099/results/restoration/restormer_RGB_burst_measured/best.pth",
+      "checkpoint_sha256": "c33cedf4c3dd782202ebb1c46e5955533a0c6d5a5b86edaa7747cdb5b681ab9e",
+      "selected_step": 28672,
+      "selected_tune_ssim": 0.6617517730323855,
+      "training_protocol_sha256": "a1a53759726f287146e2fbb4938331e1af03e384779d60602296222085ea6ace",
+      "COMPLETE": "/home/al/Documents/ChatGPT/NRL/turbid_water/chpc_restoration_seed_replication_20261015/retrieval_20261016/retrieved/seed4099/results/restoration/restormer_RGB_burst_measured/COMPLETE.json",
+      "COMPLETE_sha256": "0d1ed0035470fe4de35a07cf08c2bbdd0eed51688f05d9cba12540c71a65d578"
+    }
+  ]
+}
