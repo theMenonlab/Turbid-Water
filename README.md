@@ -1,10 +1,10 @@
 # Imaging through turbid, bubbly, and flowing water
 
-**Code, frozen data splits, and selected models for computational imaging through water close to a telescope.**
+**Code, frozen data splits, and trained models for computational imaging through water close to a telescope.**
 
-This repository accompanies *Computational imaging through turbid, bubbly and flowing water near the telescope* by Alexander Ingold and colleagues. It provides a common interface for twelve selected restoration checkpoints, the original training implementations, and the evidence tables supporting the released models.
+This repository accompanies *Computational imaging through turbid, bubbly and flowing water near the telescope* by Alexander Ingold and colleagues. It provides a common interface for twelve final restoration checkpoints, the original training implementations, and the evidence tables supporting the released models.
 
-The study compares a single camera frame, an eight-frame arithmetic mean, and learned burst restoration. On the 329-record paired evaluation cohort, trained-mean and burst Restormer achieve 0.6756 and 0.6753 SSIM against the digital targets. The paired comparison does not establish an advantage of burst over trained mean. These scores describe the study's displayed-image acquisition and references.
+The study compares a single camera frame, an eight-frame arithmetic mean, and learned burst restoration. On the 329-record paired evaluation cohort, trained-mean and burst Restormer achieve 0.6690 and 0.6708 SSIM against the digital targets. The paired comparison does not establish an advantage of burst over trained mean. These scores describe the study's displayed-image acquisition and references.
 
 ## Downloads
 
@@ -43,7 +43,7 @@ For a still image, the loader repeats the image into eight input slots and limit
 | Joint-RGB Restormer, measured only | Burst | 26,135,716 | 1337, 4099 |
 | Official width-32 NAFNet adaptation | Single, mean, burst | 17,117,955 | 1337 |
 
-Every released fit completed 65,536 updates. Tuning SSIM selected each checkpoint. The [model index](model-index.json) records exact checkpoint hashes, selected updates, input modes, and training budgets. See the [model card](docs/MODEL_CARD.md) for architecture and selection details.
+Every released fit completed 65,536 updates, and the released weights are those at the final update, as used in the paper. The [model index](model-index.json) records exact checkpoint hashes, the tuning-selected updates, input modes, and training budgets. See the [model card](docs/MODEL_CARD.md) for architecture and selection details.
 
 ## Data and evaluation
 
