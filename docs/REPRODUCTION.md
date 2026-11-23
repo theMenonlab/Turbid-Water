@@ -30,6 +30,6 @@ The seven run IDs are listed in `reproduction/legacy/config/CAMPAIGN_v1.json`. F
 
 The frozen legacy source includes classifier training and evaluation. It uses the same five-category label mapping and ImageNet-initialized ResNet50 backbone for seeds 1337, 2027, and 4099. Read the archived protocol before running these phases; selection must precede evaluation. The curated weights package contains restoration checkpoints rather than the recognition classifiers.
 
-`reproduction/seed4099/CAMPAIGN_v1.json` records the completed burst replication recipe. Its source training paths refer to the historical campaign; use it as provenance alongside the two selected weights. The original amendment and incomplete seed-2027 disclosure are in `results/seed_evidence/`.
+`reproduction/seed4099/CAMPAIGN_v1.json` records the completed burst replication recipe. Its source training paths refer to the historical campaign; use it as provenance alongside the two seed-4099 weights. The original amendment and incomplete seed-2027 disclosure are in `results/seed_evidence/`.
 
 The release verifies source integrity, strict checkpoint loading, representative forward inference, the data contract, and representative visual output. It does not rerun the full training campaign. Hardware and library differences can affect exact floating-point results. Historical machine paths inside frozen source records are provenance; the top-level inference and evaluation interfaces use explicit local roots.
